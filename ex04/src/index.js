@@ -4,18 +4,20 @@ class Pets {
         this._name = name;
         this._legs = legs;
     }
-    walk(numberOfLegs) {
-        return `${this._name} is walking on ${this._legs} legs`;
+    walk() {
+        let numberofLegs = `${this._name} is walking on ${this._legs} legs`
+        return numberofLegs;
     }
 }
 class Dog extends Pets {
     constructor (name, legs) {
-    super(Pets)
+    super(name, legs)
     this._name = name;
     this._legs = legs;
     }
-    bark(dogSay) {
-        return `${this._name} says ${dogSay}`;
+    bark() {
+        let dogSay = `${this._name} says ${dogSay}`;
+        return dogSay;
     }
 }
 
