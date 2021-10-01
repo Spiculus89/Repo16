@@ -16,7 +16,7 @@ class Dog extends Pets {
     this._legs = legs;
     }
     bark() {
-        let dogSay = `${this._name} says ${dogSay}`;
+        let dogSay = `${this._name} says WUF-WUF`;
         return dogSay;
     }
 }
@@ -24,7 +24,7 @@ class Dog extends Pets {
 // Only change code above this line
 const dog = new Dog('Pujdo', 4);
 console.log(dog.walk());
-console.log(dog.bark('WUF-WUF'));
+console.log(dog.bark());
 
 
 module.exports = {
